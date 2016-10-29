@@ -24,11 +24,11 @@ npm install webstorage-poly
 ### Usage
 Load it in your code with an import statement:
 ```javascript
-import "webstorage-polyfill";
+import "webstorage-poly";
 ```
 Or from a script tag:
 ```html
-<script src="../node_modules/webstorage-polyfill/polyfill.min.js"></script>
+<script src="../node_modules/webstorage-poly/polyfill.min.js"></script>
 ```
 
 The polyfill will be applied automatically if necessary.
