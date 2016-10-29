@@ -1,0 +1,26 @@
+{
+  "name": "webstorage-polyfill",
+  "version": "1.0.0",
+  "description": "Tiny WebStorage polyfill for all browsers",
+  "main": "polyfill.min.js",
+  "scripts": {
+    "build": "npm run build:dev && npm run build:min",
+    "build:dev": "NODE_ENV=development rollup -c rollup.config.js -o polyfill.js",
+    "build:min": "NODE_ENV=production rollup -c rollup.config.js -o polyfill.min.js"
+  },
+  "author": "Frederik Wessberg",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-flowtype": "^2.25.0",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-uglify": "^1.0.1",
+    "uglify-js": "github:mishoo/UglifyJS2#harmony"
+  }
+}
