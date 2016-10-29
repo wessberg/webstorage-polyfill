@@ -18,7 +18,7 @@ supported. An impressive number of popular websites doesn't handle this scenario
 ### Install
 Install with
 ```javascript
-npm install webstorage-polyfill
+npm install webstorage-poly
 ```
 
 ### Usage

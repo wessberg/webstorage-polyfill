@@ -1,5 +1,5 @@
 {
-  "name": "webstorage-polyfill",
+  "name": "webstorage-poly",
   "version": "1.0.0",
   "description": "Tiny WebStorage polyfill for all browsers",
   "main": "polyfill.min.js",
